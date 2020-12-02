@@ -116,6 +116,43 @@ a {
             }
         }
     }
+
+    .news {
+        .scroll-list {
+            height: 220px;
+            overflow-y: auto;
+
+            .scroll-item {
+                list-style: none;
+                padding: 10px 15px;
+
+                .news-date {
+                    display: inline-block;
+                    font-size: 1.4rem;
+                    width: 19%;
+                }
+
+                .category {
+                    display: inline-block;
+                    background-color: #d03c56;
+                    color: #e3e3e3;
+                    font-size: 1.1rem;
+                    border-radius: 5px;
+                }
+
+                .title {
+                    font-size: 1.4rem;
+                    padding-left: 20px; 
+                    width: 80%
+                }
+            }
+
+            .scroll-item:nth-of-type(2n) {
+                display: block;
+                background-color: #EAD9FF;
+            }
+        }
+    }
 }
 
 .side-menu {

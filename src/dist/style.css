@@ -81,11 +81,15 @@ a {
 .main .hot-topic .content {
   position: relative;
   width: 50%;
-  height: 100%;
+  padding: 50px 25px 5px;
+  line-height: 1.6;
 }
 .main .hot-topic .content .content-date {
+  position: absolute;
+  left: 0;
+  top: 8px;
   width: 30%;
-  margin-top: 15px;
+  margin-top: 1px;
   background-color: #fff;
   color: #333;
   padding: 4px;
@@ -94,6 +98,7 @@ a {
 }
 .main .hot-topic .content h3 {
   color: #e3e3e3;
+  margin-bottom: 10px;
 }
 .main .hot-topic .content p {
   color: #e3e3e3;

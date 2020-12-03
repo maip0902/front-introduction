@@ -132,6 +132,36 @@ a {
   display: block;
   background-color: #EAD9FF;
 }
+.main .articles {
+  display: flex;
+  margin-top: 25px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main .articles .article-box {
+  position: relative;
+  width: 45%;
+  height: 350px;
+  box-shadow: 0 0 10px #666;
+  margin: 10px auto;
+}
+.main .articles .article-box .article-img {
+  display: block;
+  width: 100%;
+  height: 50%;
+}
+.main .articles .article-box .article-body {
+  width: 100%;
+  height: 50%;
+  padding: 4px;
+}
+.main .articles .article-box .article-date {
+  width: 110px;
+  position: absolute;
+  background-color: #FFABCE;
+  padding: 5px;
+  right: 0;
+}
 
 .side-menu {
   float: right;

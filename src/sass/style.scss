@@ -187,12 +187,60 @@ a {
             }
         }
 
+        .article-box:hover {
+            opacity: 0.8;
+        }
+
     }
 }
 
 .side-menu {
     float: right;
     width: 275px;
+
+    .ranking {
+        counter-reset: ranking;
+
+        .ranking-item {
+            display: flex;
+            list-style: none;
+            width: 300px;
+            height: 80px;
+            margin: 5px 0px;
+
+            .ranking-img {
+                width: 80px;
+                height: 100%;
+            }
+
+            .ranking-content {
+                width: 40%;
+                padding: 4px;
+            }
+
+            .order {
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                text-align: center;
+                vertical-align: 20px;
+                border: 1px solid #ccc;
+                color: #aaa;
+                font-weight: bold;
+                transform: rotate(45deg);
+                -webkit-transform: rotate(45deg);
+                margin: auto 10px;
+            }
+
+            .order::before {
+                content: counter(ranking);
+                counter-increment: ranking;
+                display: inline-block;
+                transform: rotate(-45deg);
+                -webkit-transform: rotate(-45deg);
+            }
+        }
+    }
 }
 
 .footer {

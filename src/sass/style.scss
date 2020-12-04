@@ -241,6 +241,27 @@ a {
             }
         }
     }
+
+    .documents-list {
+        list-style: none;
+
+        h3 {
+
+        }
+
+        .documents-item {
+            list-style: none;
+            margin: 5px 0;
+        }
+
+        .triangle{
+            display: inline-block;
+            border-style: solid;
+            border-width: 5px 0 5px 5px;
+            border-color: transparent transparent transparent #007bff;
+            margin: 0 5px;
+        }
+    }
 }
 
 .footer {

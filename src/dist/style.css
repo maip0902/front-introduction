@@ -211,6 +211,10 @@ a {
 .side-menu .documents-list {
   list-style: none;
 }
+.side-menu .documents-list h3 {
+  border-left: 5px solid #d03c56;
+  padding-left: 5px;
+}
 .side-menu .documents-list .documents-item {
   list-style: none;
   margin: 5px 0;
@@ -221,6 +225,29 @@ a {
   border-width: 5px 0 5px 5px;
   border-color: transparent transparent transparent #007bff;
   margin: 0 5px;
+}
+.side-menu .search {
+  background-color: #ccc;
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+.side-menu .search .search-box {
+  font-size: 0;
+}
+.side-menu .search .search-box p {
+  font-size: 1.2rem;
+}
+.side-menu .search .input-search {
+  padding: 0 10px;
+  height: 26px;
+  border: none;
+}
+.side-menu .search .search-button {
+  height: 26px;
+  background-color: #d03c56;
+  color: #fff;
+  border: none;
 }
 
 .footer {

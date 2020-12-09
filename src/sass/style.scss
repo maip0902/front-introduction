@@ -295,4 +295,28 @@ a {
 
 .footer {
     width: 100%;
+    background-color: #666;
+    height: 150px;
+    padding: 20px 0;
+
+    .footer-menu {
+        margin-left: 60%;
+        display: flex;
+        color: #fff;
+
+        .item {
+            font-weight: bold;
+            padding: 0 15px;
+        }
+        .item + .item {
+            border-left: 1px solid #fff;
+        }
+    }
+
+    .copy-right {
+        color: #fff;
+        margin: auto;
+        text-align: center;
+        margin-top: 30px;
+    }
 }
